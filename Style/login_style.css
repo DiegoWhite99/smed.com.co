@@ -98,13 +98,24 @@ btn:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 512px;
-    height: 420px;
+    width: 520px;
+    height: 423px;
     overflow: hidden;
     z-index: 2;
 }
 
+.login-container{
+    position: absolute;
+    left: 4px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease-in-out;
+}
+
 .register-container{
+    position: absolute;
+    right: -520px;
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -204,4 +215,40 @@ header{
 
 .two label a:hover{
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 786px){
+    .nav-button{
+        display: none;
+    }
+
+    .nav-menu.reponsive{
+        top: 100px;
+    }
+    .nav-menu{
+        position: absolute;
+        top: -800px;
+        display: flex;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.2);
+        width: 100%;
+        height: 90vh;
+        backdrop-filter: blur(20px);
+        transition: .3s;
+    }
+    .nav-menu ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-menu-btn{
+        display:block;
+    }
+   .nav-menu-btn i{
+    font-size: 25px;
+    color: #ffff;
+    padding: 10px;
+   }
+    .nav-menu-btn i:hover{
+        background: rgba(255, 255, 255, 0.15);
+    }
 }
