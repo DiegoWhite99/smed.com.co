@@ -1,3 +1,18 @@
+/* ---------------------------> apartado de resposive <----------------------- */
+
+function MyMenuFuction(){
+    var i = document.getElementById("navMenu");
+
+    if(i.className === "nav-menu") {
+        i.className += "resposive";
+    } else {
+        i.className = "nav-menu";
+    }
+}
+
+
+
+
 var a = document.getElementById("loginbtn");
 var b = document.getElementById("registerbtn");
 var x = document.getElementById("login");
@@ -23,14 +38,3 @@ function register(){
     y.style.opacity  = 1;
 }
 
-/* ---------------------------> apartado de resposive <----------------------- */
-
-function MyMenuFuction(){
-    var i = document.getElementById("navMenu");
-
-    if(i.className === "nav-menu") {
-        i.className += "resposive";
-    } else {
-        i.className = "nav-menu";
-    }
-}

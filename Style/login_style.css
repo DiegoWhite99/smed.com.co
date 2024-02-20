@@ -9,7 +9,7 @@
 }
 
 body {
-    background: url("../images/fondo.gif");
+    background: url("../images/fondo2.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,10 +35,19 @@ body {
     z-index: 100;
 }
 
+
+.nav-logo img{
+    width: 50px; 
+    height: 30px; 
+    border-radius: 70%; 
+    margin-right: 50px;
+}
+
 .nav-logo p{
     color:white;
     font-size: 25px;
     font-weight: 600;
+    margin: 0%;
 }
 
 .nav-menu ul{
