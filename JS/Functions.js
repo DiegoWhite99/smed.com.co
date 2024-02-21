@@ -38,3 +38,14 @@ function register(){
     y.style.opacity  = 1;
 }
 
+function validar() {
+    var contraseña = document.getElementById("contraseña").value;
+    var confirmContraseña = document.getElementById("confirmContraseña").value;
+    var botonRegistro = document.getElementById("confirmation");
+
+    if (contraseña !== confirmContraseña) {
+        botonRegistro.disabled = true;
+    } else {
+        botonRegistro.disabled = false;
+    }
+}
