@@ -39,13 +39,29 @@ function register(){
 }
 
 function validar() {
-    var contraseña = document.getElementById("contraseña").value;
-    var confirmContraseña = document.getElementById("confirmContraseña").value;
-    var botonRegistro = document.getElementById("confirmation");
+    var password = document.getElementById("contraseña").value;
+    var confirmPassword = document.getElementById("confirmContraseña").value;
+    var botonRegistro = document.getElementById("confirmation").value;
 
-    if (contraseña !== confirmContraseña) {
+    var campos = ["nombre", "apellido", "email", "contraseña", "confirmContraseña"];
+
+    for (i = 0; i < campos.length; i++) {
+        var valorCampo = document.getElementById(campos[i]).value;
+        if (valorCampo === ""){
+            botonRegistro.disabled = true;
+            alert("Revisa los campos");
+            return false;
+        }
+    }
+
+    if (password !== confirmPassword) {
         botonRegistro.disabled = true;
+        alert("Contraseñas no coinciden");
+        return false;
     } else {
         botonRegistro.disabled = false;
+        alert("Registro Exitoso");
+        return true;
     }
+    
 }
