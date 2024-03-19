@@ -1,0 +1,23 @@
+body{
+
+    background: url("../images/Technology\ -\ Editado.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-menu ul{
+    display: flex;
+}
+
+.nav-menu li{
+    list-style-type: none;
+}
+
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffff;
+    padding-bottom: 15px;
+    margin: 0 25px;
+}
