@@ -61,6 +61,7 @@ function validar() {
     } else {
         botonRegistro.disabled = false;
         alert("Registro Exitoso");
+        window.location = "login.html"; 
         return true;
     }
     
