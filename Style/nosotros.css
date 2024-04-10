@@ -9,19 +9,14 @@
     font-family: 'Poppins', sans-serif;
 }
 /* se modifica toda la pagina */
-body {
-    background: url("../images/fondo2.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+
 
 .wrapper1{
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 110vh;
-    background: rgb(39, 39, 39, 0.4);
+    background-color: white;
+    
 }
 
 .nav{
@@ -33,7 +28,10 @@ body {
     height: 100px;
     line-height: 100px;
     background: linear-gradient(rgba(39,39,39,0.6), transparent);
-    z-index: 100;
+    z-index: 00;
+    background: url("../images/fondo2.gif"); 
+    box-shadow: 2px 6px  10px rgb(6, 41, 156);
+    
 }
 
 
@@ -48,7 +46,9 @@ body {
     color:white;
     font-size: 25px;
     font-weight: 600;
-    margin: 0%;
+    
+    
+    
 }
 
 .nav-menu ul{
