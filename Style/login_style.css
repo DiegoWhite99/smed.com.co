@@ -67,7 +67,7 @@ body {
     margin: 0 25px;
 }
 
-.lin k:hover, .active{
+.link:hover, .active{
  border-bottom: 2px solid #ffff;
 }
 .nav-button .btn{
@@ -82,7 +82,7 @@ body {
 }
 
 btn:hover{
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
@@ -145,6 +145,9 @@ btn:hover{
     font-weight: 500;
     color: #ffff;
     margin-left: 5px;
+}
+.top span a:hover{
+   color: #23b1d4;
 }
 
 header{
@@ -228,6 +231,7 @@ header{
 
 .two label a:hover{
     text-decoration: underline;
+    color:#23b1d4;
 }
 
 @media only screen and (max-width: 786px){
