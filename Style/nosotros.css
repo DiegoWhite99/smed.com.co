@@ -24,7 +24,7 @@
 }
 
 .titulo1 h1 {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 #logo_smed {
@@ -67,10 +67,13 @@
 /* seccion de la parte del nav */
 
 #title_our {
+    width: 10px;
+    height: 103px;
+    padding: 10px;
+    border: transparent;
     color: #061A3B;
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
-    padding: 20px;
     margin-top: 150px;
     margin-left: 20px;
     font-size: 75px;
@@ -83,17 +86,24 @@
 }
 
 .p_our{
-    overflow: auto;
+    overflow: visible;
     font-family: "Open Sans", sans-serif;
     margin-left: 30px;
+    font-size: 35px;
 }
 
 #p_Gif {
-    position: auto;
     float: right;
-    margin-top: -230px;
-    margin-right: 300px;
-    width: 300px;
-    border-radius: 160px;
-    
+    margin-top: -350px;
+    margin-right: 150px;
+    margin-left: 20px; 
+    width: 30%;  
+}
+
+/* seccion del primer banner*/
+
+.vision_mision {
+    margin-top: 270px;
+    color: beige;
+    background-image: linear-gradient(to bottom, #000000, #052d7b);
 }
