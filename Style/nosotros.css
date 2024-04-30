@@ -9,8 +9,18 @@
     font-family: 'Poppins', sans-serif;
 }
 /* se modifica toda la pagina */
+<<<<<<< Updated upstream:Style/nosotros.css
 
 
+=======
+body {
+    background: url("../images/fondo2.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*modificacion del cuerpo */
+>>>>>>> Stashed changes:Style/blog.css
 .wrapper1{
     display: flex;
     justify-content: center;
@@ -18,7 +28,7 @@
     background-color: white;
     
 }
-
+ 
 .nav{
     position: fixed;
     top: 0;
