@@ -111,6 +111,22 @@
     z-index: 0;
 }
 
+/* Media query para pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+    .p_our {
+        font-size: 5vw; /* Cambiamos el tamaño de la fuente para adaptarse mejor a pantallas pequeñas */
+    }
+
+    #p_Gif {
+        margin-right: 2%; /* Ajustamos el margen derecho para pantallas más pequeñas */
+        margin-left: 2%; /* Ajustamos el margen izquierdo para pantallas más pequeñas */
+    }
+
+    #t_Gif {
+        margin-right: -20%; /* Ajustamos el margen derecho para pantallas más pequeñas */
+    }
+}
+
 /* seccion del primer banner*/
 
 .vision_mision {
