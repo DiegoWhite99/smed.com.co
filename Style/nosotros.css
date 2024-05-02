@@ -10,7 +10,7 @@
 }
 
 .nav {
-    height: 100px;
+    height: 120px;
     background-image: url('/images/nav.jpg');
     display: flex;
     justify-content: space-between;
@@ -21,24 +21,29 @@
     color: aliceblue;
     display: flex;
     align-items: center;  
+    
 }
 
 .titulo1 h1 {
     margin-left: 5px;
+    padding-left: 50px;
+    font-size: 200%;
 }
 
 #logo_smed {
-    width: 80px;
-    height: 80px;
+    width: 10%;
+    height: 10%;
     margin-top: 10px;
     margin-left: 20px;
     display: flex;
     background-color: rgb(rgba(245, 239, 239, 0.315));
     border-radius: 20px;
+    
 }
 
 .nav_items {
     display: flex;
+    padding-inline: 2%;
 }
 
 .nav_items a  {
@@ -47,7 +52,8 @@
    text-decoration: none;
    color: aliceblue;
    position: relative;
-   padding-bottom: 2px;
+   padding-bottom: 0px;
+   font-size: 130%;
 }
 
 .nav_items a:hover::after {
@@ -75,7 +81,7 @@
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     margin-top: 150px;
-    margin-left: 20px;
+    margin-left: 1%;
     font-size: 650%;
 }
 
@@ -127,10 +133,60 @@
     }
 }
 
-/* seccion del primer banner*/
 
+
+
+
+
+
+
+
+/* AQUI COMIENZA LOS ESTILOS DE LA SESION 2*/
+
+
+/* estilos al div seccion vision_mision */
 .vision_mision {
     margin-top: 270px;
     color: beige;
     background-image: linear-gradient(to bottom, #000000, #052d7b);
+}
+/* todo el contenedor de la imagen */
+.contenedor-imagen {
+    width: 100%;     
+    height: 300px;   
+    overflow: hidden;
+    position: relative; 
+}
+
+/* hace que la imgen ocupe todo el ancho de la pagina */
+#lineaSup {
+    width: 100%;      
+    height: 100%;     
+    object-fit: cover; 
+    position: absolute; 
+    top: 0;           
+    left: 0;          
+}
+
+/* estilos del titulo de la seccion 2 */
+ .segunda_pantalla h2{
+    font-family: "Orbitron", sans-serif;
+    font-size: 500%;
+    margin-left: 1%;
+ }
+
+/* contendor general de mision y vision */
+ .caja_misonvision {
+    display: flex; 
+    width: 100%; 
+}
+
+/* diseño interno de la mision y vision para que se alinea una al lado de la otra*/
+.texto {
+    flex: 1; 
+    padding: 60px; 
+    box-sizing: border-box; 
+    font-size: 120%;
+    
+
 }
