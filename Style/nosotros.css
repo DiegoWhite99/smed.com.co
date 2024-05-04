@@ -10,7 +10,7 @@
 }
 
 .nav {
-    height: 120px;
+    height: 100px;
     background-image: url('/images/nav.jpg');
     display: flex;
     justify-content: space-between;
@@ -21,29 +21,24 @@
     color: aliceblue;
     display: flex;
     align-items: center;  
-    
 }
 
 .titulo1 h1 {
     margin-left: 5px;
-    padding-left: 50px;
-    font-size: 200%;
 }
 
 #logo_smed {
-    width: 10%;
-    height: 10%;
+    width: 80px;
+    height: 80px;
     margin-top: 10px;
     margin-left: 20px;
     display: flex;
     background-color: rgb(rgba(245, 239, 239, 0.315));
     border-radius: 20px;
-    
 }
 
 .nav_items {
     display: flex;
-    padding-inline: 2%;
 }
 
 .nav_items a  {
@@ -52,8 +47,7 @@
    text-decoration: none;
    color: aliceblue;
    position: relative;
-   padding-bottom: 0px;
-   font-size: 130%;
+   padding-bottom: 2px;
 }
 
 .nav_items a:hover::after {
@@ -81,7 +75,7 @@
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     margin-top: 150px;
-    margin-left: 1%;
+    margin-left: 20px;
     font-size: 650%;
 }
 
@@ -117,76 +111,11 @@
     z-index: 0;
 }
 
-/* Media query para pantallas más pequeñas */
-@media only screen and (max-width: 768px) {
-    .p_our {
-        font-size: 5vw; /* Cambiamos el tamaño de la fuente para adaptarse mejor a pantallas pequeñas */
-    }
 
-    #p_Gif {
-        margin-right: 2%; /* Ajustamos el margen derecho para pantallas más pequeñas */
-        margin-left: 2%; /* Ajustamos el margen izquierdo para pantallas más pequeñas */
-    }
+/* seccion del primer banner*/
 
-    #t_Gif {
-        margin-right: -20%; /* Ajustamos el margen derecho para pantallas más pequeñas */
-    }
-}
-
-
-
-
-
-
-
-
-
-/* AQUI COMIENZA LOS ESTILOS DE LA SESION 2*/
-
-
-/* estilos al div seccion vision_mision */
 .vision_mision {
     margin-top: 270px;
     color: beige;
     background-image: linear-gradient(to bottom, #000000, #052d7b);
-}
-/* todo el contenedor de la imagen */
-.contenedor-imagen {
-    width: 100%;     
-    height: 300px;   
-    overflow: hidden;
-    position: relative; 
-}
-
-/* hace que la imgen ocupe todo el ancho de la pagina */
-#lineaSup {
-    width: 100%;      
-    height: 100%;     
-    object-fit: cover; 
-    position: absolute; 
-    top: 0;           
-    left: 0;          
-}
-
-/* estilos del titulo de la seccion 2 */
- .segunda_pantalla h2{
-    font-family: "Orbitron", sans-serif;
-    font-size: 500%;
-    margin-left: 1%;
- }
-
-/* contendor general de mision y vision */
- .caja_misonvision {
-    display: flex; 
-    width: 100%; 
-}
-
-/* diseño interno de la mision y vision para que se alinea una al lado de la otra*/
-.texto {
-    flex: 1; 
-    padding: 60px; 
-    box-sizing: border-box; 
-    font-size: 120%;
-    
-
 }
