@@ -37,10 +37,6 @@
     border-radius: 20px;
 }
 
-.nav_items {
-    display: flex;
-}
-
 .nav_items a  {
    margin-left: 50px;
    margin-right: 20px;
@@ -66,6 +62,17 @@
 
 /* seccion de la parte del nav */
 
+/* inicion primer pantalla */
+
+.primer_pantalla {
+width: 1000px;
+height: 600px;
+padding: 10px;
+margin-top: -50px;
+margin-right: 30px;
+margin-left: 10px;
+position: relative;
+}
 #title_our {
     width: 10px;
     height: 103px;
@@ -92,24 +99,15 @@
     font-size: 35px;
 }
 
-#p_Gif {
-    float: right;
-    margin-top: -350px;
-    margin-right: 150px;
-    margin-left: 20px; 
-    width: 30%;  
-    z-index: 1;
-    position: relative;
+/* imagen pantalla 1 */
+
+.reunion_gif{
+    position: absolute; /* Posición absoluta para situar la imagen */
+    right: -1000px; /* Ajustar según sea necesario */
+    top: 50%; /* Ajustar según sea necesario */
+    transform: translateY(-50%); /* Centrar verticalmente */
 }
-#t_Gif {
-    float: right;
-    margin-top: -22%;
-    margin-right: -37%;
-    margin-left: 20px; 
-    width: 40%;
-    height: 680px;  
-    z-index: 0;
-}
+
 
 
 /* seccion del primer banner*/
