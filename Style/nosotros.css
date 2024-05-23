@@ -102,10 +102,12 @@ position: relative;
 /* imagen pantalla 1 */
 
 .reunion_gif{
-    position: absolute; /* Posición absoluta para situar la imagen */
-    right: -1000px; /* Ajustar según sea necesario */
-    top: 50%; /* Ajustar según sea necesario */
-    transform: translateY(-50%); /* Centrar verticalmente */
+    width: 1000px;
+    height: -200px;
+    position: absolute; 
+    left: 1500px; 
+    top: 50%;
+    transform: translateY(-50%); 
 }
 
 
