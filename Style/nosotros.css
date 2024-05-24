@@ -172,3 +172,12 @@ h3{
     margin-top: -815px;
     margin-left: 1000px;
 }
+#texto_vision{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    width: 470px;
+    height: 250px;
+    margin-top: 1px;
+    margin-left: 90px;
+    text-align: justify;
+}
