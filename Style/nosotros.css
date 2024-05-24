@@ -102,13 +102,14 @@ position: relative;
 /* imagen pantalla 1 */
 
 .reunion_gif{
-    width: 1000px;
-    height: -200px;
+    width: 100px;
     position: absolute; 
-    left: 1500px; 
-    top: 50%;
+    left: 1220px; 
+    top: 500px;
     transform: translateY(-50%); 
+   
 }
+
 
 
 
@@ -118,4 +119,12 @@ position: relative;
     margin-top: 270px;
     color: beige;
     background-image: linear-gradient(to bottom, #000000, #052d7b);
+}
+
+#sub_1{
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Orbitron", sans-serif;
+    font-size: 70px;
+    margin-left: 100px;
 }
