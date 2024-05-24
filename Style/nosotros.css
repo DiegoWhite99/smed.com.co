@@ -136,18 +136,23 @@ position: relative;
 
 /* caja1 seccion 2 */
 
-
+.caja1 {
+    width: 1000px;
+    margin-right: 20px;
+}
 #reunion {
     width: 500px;
     height: 500px;
-    margin-left: 110px;
+    margin-left: 75px;
 }
 
 h3{
+    margin-top: -75px;
     margin-left: 300px;
 }
 
 #texto_mission {
+    margin-top: 1px;
     margin-left: 90px;
     text-align: justify;
 }
