@@ -130,7 +130,7 @@ html, body {
     color: beige;
     background-image: linear-gradient(to bottom, #000000, #052d7b);
     width: 100%;
-    height: 300%;
+    height: 380%;
 }
 
 #sub_1 {
@@ -148,45 +148,31 @@ html, body {
 
 /* caja1 seccion 2 */
 
-.caja_mision_vision {
-    display: flex;
-    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
-    align-items: flex-start; /* Alinea los elementos al inicio en el eje vertical */
-    gap: 20px; /* Espacio entre los elementos */
-    padding: 20px; /* Añade un poco de relleno alrededor del contenedor */
+#reunion {
+  width: 70%;
+  margin-left: 8%;
+}
+
+#mision {
     width: 100%;
-    color: aliceblue;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan si el espacio es insuficiente */
+    height: 50%;
+    margin-left: -10000px;
+    
 }
 
 .caja1 {
-    flex: 1; /* Permite que los divs crezcan uniformemente */
-    max-width: 48%; /* Máximo ancho de cada div, ajusta según sea necesario */
-    min-width: 300px; /* Ancho mínimo para evitar que los elementos sean demasiado pequeños */
-    height: auto; /* Ajusta la altura según el contenido */
-    box-sizing: border-box; /* Incluye el padding y border en el total del ancho */
-    
-    padding: 20px; /* Relleno interno para que el contenido no toque los bordes */
-    text-align: center; /* Centrar el texto */
-}
-
-.caja1 img {
-    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
-    height: auto; /* Mantiene la proporción de las imágenes */
+   width: 50%;
 }
 
 
 
-#reunion {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-}
 
 h3 {
     font-family: "Orbitron", sans-serif;
     font-size: 25px;
     margin-top: 20px;
+    margin-left: 25%;
+    
 }
 
 
@@ -205,103 +191,3 @@ h3 {
     
 }
 
-
-/* Media Queries para respinsive */
-
-@media (max-width: 1200px) {
-    .reunion_gif {
-        right: 10%;
-    }
-
-    #sub_1 {
-        font-size: 60px;
-    }
-
-    #title_our {
-        font-size: 5em;
-    }
-
-    .p_our {
-        font-size: 1.8em;
-    }
-}
-
-@media (max-width: 992px) {
-    .reunion_gif {
-        right: 10%;
-    }
-
-    #sub_1 {
-        font-size: 50px;
-    }
-
-    #title_our {
-        font-size: 4em;
-    }
-
-    .p_our {
-        font-size: 1.6em;
-    }
-}
-
-@media (max-width: 768px) {
-    .reunion_gif {
-        right: 10%;
-    }
-
-    #sub_1 {
-        font-size: 40px;
-    }
-
-    #title_our {
-        font-size: 3em;
-    }
-
-    .p_our {
-        font-size: 1.4em;
-    }
-
-    .nav_items a {
-        margin-left: 20px;
-        margin-right: 10px;
-    }
-}
-
-@media (max-width: 576px) {
-    .nav {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .nav_items {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .reunion_gif {
-        right: 50%;
-        width: 80px;
-    }
-
-    #sub_1 {
-        font-size: 30px;
-    }
-
-    #title_our {
-        font-size: 2.5em;
-    }
-
-    .p_our {
-        font-size: 1.2em;
-    }
-
-    .caja1, .caja_vision {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    #texto_mission, #texto_vision {
-        width: 100%;
-    }
-}
