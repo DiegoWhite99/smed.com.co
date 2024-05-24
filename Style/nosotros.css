@@ -138,6 +138,7 @@ position: relative;
 
 .caja1 {
     width: 1000px;
+    height: 800px;
     margin-right: 20px;
 }
 #reunion {
@@ -147,13 +148,27 @@ position: relative;
 }
 
 h3{
+    width: 94px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 25px;
     margin-top: -75px;
     margin-left: 300px;
 }
 
 #texto_mission {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    width: 470px;
+    height: 250px;
     margin-top: 1px;
     margin-left: 90px;
     text-align: justify;
 }
 
+/* caja 2 seccion 2*/
+
+.caja_vision{
+    height: 2000px;
+    margin-top: -815px;
+    margin-left: 1000px;
+}
