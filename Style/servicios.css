@@ -8,9 +8,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
-    background-color: #061A3B;
-    color: #fff;
+   background-image: url(../images/S\ M\ E\ D.png);
+   
 }
 
 .nav {
@@ -26,10 +33,6 @@ body {
     color: aliceblue;
     display: flex;
     align-items: center;  
-}
-
-.titulo1 h1 {
-    margin-left: 5px;
 }
 
 #logo_smed {
@@ -132,7 +135,7 @@ body {
     align-items: flex-start;
     background-image: linear-gradient(15deg, #061A3B 0%, #061A3B 150%);
     display: flex;
-    min-height: 100%;
+    min-height: 80%;
     justify-content: center;
     padding: var(--spacing-xxl) var(--spacing-l);
   }
@@ -215,4 +218,23 @@ body {
     text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
     line-height: 1.4;
     word-spacing: 100vw;
+  }
+
+
+
+  .contacto {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+  }
+
+
+
+  /*  flooter */
+
+  footer {
+    color: aliceblue;
+    width: 100%;
+    height: 130px;
+    background-color: #061a3b57 ;
   }
