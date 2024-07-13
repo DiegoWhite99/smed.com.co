@@ -13,18 +13,27 @@
 <body>
 <!-------------------------opciones de nav de pagina ----------------> 
        
-        <nav class="nav"> 
-            <div class="titulo1">
-                <img  id="logo_smed" src="./images/smed_logo.png" alt="logo">
-                <h1> Smed Technology </h1>   
-            </div>
-           <div class="nav_items">
-                <a href="login.html" class="link">Iniciar sesion</a></li>
-                <a href="servicios.html" class="link">Servicios</a></li>
-                <a href="tienda.html" class="link">tienda</a></li>
-                <a href="experiencias.html" class="link">Experiencias</a></li>
-          </div>  
-        </nav>
+<nav class="nav">
+  <div class="nav-logo">
+      <p> Smed Technology </p>
+  </div>
+  <div class="nav-menu" id="navMenu">
+      <ul>
+          
+          <li><a href="nosotros.html" class="link">¿Quienes somos?</a></li>
+          <li><a href="servicios.html" class="link">Servicios</a></li>
+          <li><a href="tienda.html" class="link">Tienda</a></li>
+          <li><a href="experiencias.html" class="link">Experiencias</a></li>
+      </ul>
+  </div>
+  <div class="nav-button">
+      <button class="btn white-btn" id="loginbtn" onclick="login()">Ingresar </button>
+      
+  </div>
+  <div class="nav-menu-btn">
+      <i class="bx bx-menu" onclick="MyMenuFuction()"></i>
+  </div>
+</nav>
       
  <!-------------------------fin de nav de pagina ----------------> 
  <section class="primer_pantalla">
