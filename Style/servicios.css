@@ -99,26 +99,6 @@ body {
 
 
 
-/*titulo central*/
-
-.titulo_Pri{
-  font-family: "Orbitron", sans-serif;
-  display: flex;
-  align-items: center;
-  width: 35%;
-  height: 23%;
-  margin-top: 2%;
-  margin-left: 34%;
-  font-size: 25px;
-  border-radius: 30px;
-  text-align: center;
-  justify-content: center;
-}
-
-#lineaSup {
-  width: 100%;
-  height: 200px;
-}  
 
 
 /* inicio de servicios, carrusel */ 
@@ -127,12 +107,12 @@ body {
     --background-dark: #2d3548;
     --text-light: rgba(255,255,255,0.6);
     --text-lighter: rgba(255,255,255,0.9);
-    --spacing-s: 8px;
-    --spacing-m: 16px;
-    --spacing-l: 24px;
+    --spacing-s: 30px;
+    --spacing-m: 20px;
+    --spacing-l: 37px;
     --spacing-xl: 32px;
     --spacing-xxl: 64px;
-    --width-container: 1200px;
+    --width-container: 1080px;
   }
   
   *{
@@ -153,11 +133,10 @@ body {
   }
   
   .hero-section{
-    align-items: flex-start;
+    align-items: center;
     background-image: linear-gradient(15deg, #061A3B 0%, #061A3B 150%);
     display: flex;
     min-height: 80%;
-    justify-content: center;
     padding: var(--spacing-xxl) var(--spacing-l);
   }
   
@@ -168,6 +147,8 @@ body {
     grid-row-gap: var(--spacing-l);
     max-width: var(--width-container);
     width: 100%;
+    margin-left: 20%;
+    margin-top: 100px;
   }
   
   @media(min-width: 540px){
@@ -228,7 +209,7 @@ body {
   
   .card__category{
     color: var(--text-light);
-    font-size: 0.9rem;
+    font-size: 1.2 rem;
     margin-bottom: var(--spacing-s);
     text-transform: uppercase;
   }
@@ -243,15 +224,15 @@ body {
 
 
 
+
+
+  /*  flooter */
+
   .contacto {
     display: flex;
     justify-content: center;
     font-size: 50px;
   }
-
-
-
-  /*  flooter */
 
   footer {
     color: aliceblue;
