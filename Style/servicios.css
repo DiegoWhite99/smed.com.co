@@ -112,7 +112,7 @@ body {
     --spacing-l: 37px;
     --spacing-xl: 32px;
     --spacing-xxl: 64px;
-    --width-container: 1080px;
+    --width-container: 950px;
   }
   
   *{
@@ -147,8 +147,9 @@ body {
     grid-row-gap: var(--spacing-l);
     max-width: var(--width-container);
     width: 100%;
-    margin-left: 20%;
+    margin-left: 24%;
     margin-top: 100px;
+    
   }
   
   @media(min-width: 540px){
@@ -159,7 +160,7 @@ body {
   
   @media(min-width: 960px){
     .card-grid{
-      grid-template-columns: repeat(4, 1fr); 
+      grid-template-columns: repeat(3, 1fr); 
     }
   }
   
@@ -191,6 +192,7 @@ body {
       filter 200ms linear,
       transform 200ms linear;
   }
+  
   
   .card:hover .card__background{
     transform: scale(1.05) translateZ(0);

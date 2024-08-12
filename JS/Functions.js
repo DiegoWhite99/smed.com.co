@@ -10,9 +10,6 @@ function MyMenuFuction(){
     }
 }
 
-
-
-
 var a = document.getElementById("loginbtn");
 var b = document.getElementById("registerbtn");
 var x = document.getElementById("login");
