@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
+
+
+:root {
+    --card-height: 300px;
+    --card-width: calc(var(--card-height) / 1.5);
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -207,17 +214,17 @@ html, body {
     justify-content: flex-start;
     font-family: "Orbitron", sans-serif;
     font-size: 70px;
-    margin-left: 30px;
+    margin-top: 20px;
 }
 
-contenedor-imagen {
+.contenedor-imagen {
     text-align: center;
     margin: 20px 0;
 }
 
 #lineaSup {
-    width: 100%;
-    height: 200px;
+    width: 90%;
+    height: 70px;
 }
 
 .caja_mission_vision {
@@ -264,3 +271,21 @@ contenedor-imagen {
 }
 
 
+/* fundadores */
+
+.tercera_pantalla{
+    margin-bottom: 20px;
+    background-color: #052d7b;
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 50px;
+    margin-top: -100px;
+    color: #ffffff
+
+}
+  
