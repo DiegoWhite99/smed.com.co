@@ -6,6 +6,9 @@
 :root {
     --card-height: 300px;
     --card-width: calc(var(--card-height) / 1.5);
+    --color: #052d7b;
+    --fondo: #052d7b;
+    --transition-time: 0.5s;
   }
 
 * {
@@ -14,6 +17,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 
 html, body {
     width: 100%;
@@ -274,8 +278,10 @@ html, body {
 /* fundadores */
 
 .tercera_pantalla{
-    margin-bottom: 20px;
-    background-color: #052d7b;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Open Sans';
+    background: #052d7b;;
 
 }
 
@@ -284,8 +290,134 @@ h2{
     justify-content: center;
     font-family: "Orbitron", sans-serif;
     font-size: 50px;
-    margin-top: -100px;
+    margin-top: 100px;
     color: #ffffff
 
 }
   
+a {
+    color: inherit;
+  }
+
+  .cards-wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4rem;
+    padding: 4rem;
+    margin: 0 auto;
+    width: max-content;
+  }
+
+  .card-Diego,.card-Cristian, .card-Luis {
+    font-family: 'Heebo';
+  --bg-filter-opacity: 0.5;
+  background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
+  height: 20em;
+  width: 15em;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  /*margin: 2em;*/
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5em -1em black;
+  transition: all, var(--transition-time);
+  position: relative;
+  overflow: hidden;
+  border: 10px solid #ccc;
+  text-decoration: none;
+}
+
+.card-Diego {
+    background-image: url(../Team/Diego\ castelblanco.png);
+}
+
+.card-Cristian {
+    background-image: url(../Team/cristrian\ roncancio\ .jpg);
+}
+
+.card-Luis {
+    background-image: url(../Team/Lucho.jpg);
+}
+
+.card-Diego:hover, .card-Cristian:hover, .card-Luis:hover {
+    transform: rotate(0);
+}
+
+.card-Diego h1, .card-Cristian h1, .card-Luis h1 {
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+
+  .card-Diego p, .card-Cristian p, .card-Luis p {
+    font-size: 0.75em;
+    font-family: 'Open Sans';
+    margin-top: 0.5em;
+    line-height: 2em;
+  }
+
+  .card-Diego .tags {
+    display: flex;
+  }
+
+  .card-Cristian .tags {
+    display: flex;
+  }
+
+  .card-Luis .tags {
+    display: flex;
+  }
+
+  .card-Diego .tags .tag, .card-Cristian .tags .tag, .card-Luis .tags .tag {
+    font-size: 0.75em;
+    background: rgba(0, 0, 0, 0.616);
+    border-radius: 0.3rem;
+    padding: 0 0.5em;
+    margin-right: 0.5em;
+    line-height: 1.5em;
+    transition: all, var(--transition-time);
+  }
+  
+  .card-Diego:hover .tags .tag,.card-Cristian:hover .tags .tag, .card-Luis:hover .tags .tag {
+    background: var(--color);
+    color: white;
+  }
+
+  .card-Diego:before, .card:after, .card-Cristian:before, .card:after, .card-Luis:before, .card:after {
+    content: '';
+    transform: scale(0);
+    transform-origin: top left;
+    border-radius: 50%;
+    position: absolute;
+    left: -50%;
+    top: -50%;
+    z-index: -5;
+    transition: all, var(--transition-time);
+    transition-timing-function: ease-in-out;
+  }
+
+  .card-Diego:before , .card-Cristian:before, .card-Luis:before {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.925), rgba(0, 0, 0, 0.5));
+    width: 250%;
+    height: 250%;
+  }
+
+  .card-Diego:after, .card-Cristian:after ,.card-Luis:after {
+    background: white;
+    width: 200%;
+    height: 200%;
+  }
+
+  .card-Diego:hover, .card-Cristian:hover, .card-Luis:hover {
+    color: black;
+  } /*color de la letras del nombre, posible cambio *** ¨*/
+  
+  .card-Diego:hover:before, .card:hover:after, .card-Cristian:hover:before, .card:hover:after, .card-Luis:hover:before, .card:hover:after {
+    transform: scale(1);
+  }

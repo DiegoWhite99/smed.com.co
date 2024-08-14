@@ -92,15 +92,7 @@ a {
     color: white;
   }
   
-  .card-Diego .date {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 0.75em;
-    padding: 1em;
-    line-height: 1em;
-    opacity: .8;
-  }
+ 
   
   .card-Diego:before, .card:after {
     content: '';
@@ -184,7 +176,7 @@ a {
   
   .card-Cristian .tags .tag {
     font-size: 0.75em;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255,255,255,0.5);
     border-radius: 0.3rem;
     padding: 0 0.5em;
     margin-right: 0.5em;
@@ -199,7 +191,7 @@ a {
   
   .card-Cristian .date {
     position: absolute;
-    top: 0;
+    top: 0; 
     right: 0;
     font-size: 0.75em;
     padding: 1em;
@@ -221,7 +213,7 @@ a {
   }
   
   .card-Cristian:before {
-    background: #ddd;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.925), rgba(0, 0, 0, 0.5));
     width: 250%;
     height: 250%;
   }
@@ -433,7 +425,7 @@ a {
 }
 
 .card:before {
-  background: #ddd;
+  background: #ffff;
   width: 250%;
   height: 250%;
 }
