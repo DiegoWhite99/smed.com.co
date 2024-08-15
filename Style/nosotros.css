@@ -396,7 +396,7 @@ a {
     border-radius: 50%;
     position: absolute;
     left: -50%;
-    top: -50%;
+    top:-50%;
     z-index: -5;
     transition: all, var(--transition-time);
     transition-timing-function: ease-in-out;
@@ -431,12 +431,13 @@ footer {
 }
 
 .footer-container {
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: center;
 }
 
 .footer-container div {
@@ -446,10 +447,8 @@ footer {
 }
 
 .footer-logo {
-  flex: 1;
-  margin: 10px 20px;
+  margin: center;
   width: 100%; 
-  max-width: 800px; /* Establece un ancho máximo si es necesario */
   padding: 20px;
   text-align: center;
   box-sizing: border-box; /* Incluye padding en el ancho total */
