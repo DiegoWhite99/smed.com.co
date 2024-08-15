@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/Style/tienda.css">
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smed | Tienda </title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" href="images/icon_principal.png" type="image/png">
+        <link rel="stylesheet" href="Style/tienda.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <h1>esta es la tienda</h1>
+<!-------------------------opciones de nav de pagina ----------------> 
+<section>
+<nav class="nav">
+    <div class="nav-logo">
+        <p>Smed Technology</p>
+    </div>
+    <div class="nav-menu" id="navMenu">
+        <ul>
+            <li><a href="./nosotros.html" class="link">Inicio</a></li>
+            <li><a href="#" class="link">PCs y Laptops</a></li>
+            <li><a href="#" class="link">Accesorios</a></li>
+            <li><a href="#" class="link">Componentes</a></li>
+            <li><a href="#" class="link">Soporte Técnico</a></li>
+        </ul>
+    </div>
+    
+    <div class="nav-search">
+        <div class="search-container">
+            <input type="text" placeholder="Buscar productos" class="search-input">
+            <button class="search-button">
+                <i class="fas fa-search"></i> <!-- Icono de lupa -->
+            </button>
+        </div>
+    </div>
+</section> 
+<!-- fin de nav -->
+
+<!-- inicio de carrusel tienda -->
+
+<section>
+    <div class="ContainerCenter">
+        <!-- Radio Seleccionar -->
+        <input  type="radio" name="Carrusel" id="Slider1" checked>
+        <input type="radio" name="Carrusel" id="Slider2">
+        <input type="radio" name="Carrusel" id="Slider3">
+        
+        <div class="Carrusels">
+          <!-- Imagen contenido -->
+          <div class="Carrusel" style="background-image: url(./Tienda/Banner1.png);"></div> 
+          <div class="Carrusel" style="background-image: url(./Tienda/Blue\ and\ Purple\ Modern\ Futuristic\ Tech\ Event\ Banner.gif);"></div>
+          <div class="Carrusel" style="background-image: url();"></div>
+          
+          <!-- Flechas a la izquierda por cada imagen -->
+          <label for="Slider3" class="ArrowLeft Arrow1">❮</label>
+          <label for="Slider1" class="ArrowLeft Arrow2">❮</label>
+          <label for="Slider2" class="ArrowLeft Arrow3">❮</label>
+          
+          <!-- Flechas a la derecha por cada imagen -->
+          <label for="Slider2" class="ArrowRight Arrow1">❯</label> 
+          <label for="Slider3" class="ArrowRight Arrow2">❯</label>
+          <label for="Slider1" class="ArrowRight Arrow3">❯</label>
+        </div>
+        
+        <!-- Selector circulos inferiores colgantes -->
+        <div class="Selectors">
+          <label for="Slider1" class="Selector"></label>
+          <label for="Slider2" class="Selector"></label>
+          <label for="Slider3" class="Selector"></label>
+        </div>
+      </div>
+    </section>
+
+
 </body>
 </html>
