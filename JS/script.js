@@ -18,7 +18,7 @@
  }
 
  // Cambiar diapositiva cada 5 segundos
- setInterval(changeSlide, 7000);
+ setInterval(changeSlide, 9000);
 
 // Función para mover el carrusel
 const moveToSlide = (track, currentIndex) => {
