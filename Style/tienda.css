@@ -206,9 +206,9 @@ html, body {
   }
   /* Slider */
   .Carrusels{
-      margin-top: 100px;
-      height: 400px;
-      width: 800px;
+      margin-top: 50px;
+      height: 500px;
+      width: 1050px;
       position: relative;
       overflow-x: hidden;
       border-radius: 20px;
