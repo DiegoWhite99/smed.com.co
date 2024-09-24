@@ -276,7 +276,7 @@ html, body {
 
 
 .carousel-container {
-    width: 80%;
+    width: 50%;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -294,9 +294,9 @@ html, body {
 
 .carousel-item {
     min-width: 200px; /* Ajusta el tamaño de los ítems según tus necesidades */
-    margin: 10px;
+    margin: 30px;
     background-color: #f0f0f0;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -305,6 +305,7 @@ html, body {
 .carousel-item img {
     width: 100%;
     border-radius: 10px;
+    
 }
 
 .prev, .next {
@@ -312,13 +313,17 @@ html, body {
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    color: rgba(255, 255, 255, 0.862);
     border: none;
     padding: 10px;
     cursor: pointer;
     border-radius: 50%;
     opacity: 0.7;
     transition: opacity 0.3s ease;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .prev:hover, .next:hover {
@@ -333,6 +338,13 @@ html, body {
     right: 10px;
 }
 
+.prev svg, .next svg {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  width: 24px;
+  height: 24px;
+}
 
 
 
