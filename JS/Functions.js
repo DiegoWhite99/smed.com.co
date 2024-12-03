@@ -15,7 +15,7 @@ var b = document.getElementById("registerbtn");
 var x = document.getElementById("login");
 var y = document.getElementById("register");
 
-/* ---------------------------> apartado de funciones <----------------------- */
+/* ---------------------------> apartado de funciones para validacion de datos<----------------------- */
 
 function login() {
     x.style.left = "20px";
@@ -63,3 +63,5 @@ function validar() {
     }
     
 }
+/* ---------------------------> finn deapartado de funciones para validacion de datos<----------------------- */
+
