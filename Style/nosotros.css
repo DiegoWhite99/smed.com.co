@@ -155,10 +155,13 @@ body {
 /* seccion de la parte del nav */
 
 .screen_1 {
+  display: flex;
+  justify-content: space-between;
   margin-top: 10%;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   padding: 15px;
+
 }
 
 .screen_1 p,
@@ -171,15 +174,28 @@ h2 {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 70px;  
+  font-size: 70px; 
+
 }
 
 .screen_1 h2 {
   font-family: "Bebas Neue", sans-serif;
-  font-weight: 350;
+  font-weight: 350px;
   font-style: normal;
   font-size: 200px;
+  text-shadow: 1px 1px 2px rgb(168, 163, 163), 0 0 1em rgb(205, 203, 203), 0 0 0.2em rgb(213, 213, 213);
 }
+
+.screen_1 p{
+  font-size: 22px;
+  text-align: justify;
+}
+
+.logo_1 {
+  padding-left: 180px;
+  margin-right: 10px;
+}
+
 
 
 /* footer */
