@@ -336,14 +336,21 @@ body{
   word-spacing: 100vw;
 }
 
+.servicios {
+  margin-top: 40%;
+  display: flex;
+  margin-right: 10%;
+}
+
 .contacto {
-  margin: 2rem;
+  margin: 2rem ;
   position: relative;
   padding: 2rem;
-  margin-top: 2rem; /* Margen para separarlo del contenido superior */
+  margin-top: 60rem; /* Margen para separarlo del contenido superior */
   border-radius: 20px; /* Bordes redondeados */
   overflow: hidden;
   z-index: 0; /* Para asegurarnos de que el contenido se superponga correctamente */
+
 }
 
 .contacto::before, .contacto::after {
