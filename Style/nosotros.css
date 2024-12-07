@@ -196,7 +196,12 @@ h2 {
   margin-right: 3%;
 }
 
-
+.button_1{
+  font-size: 10%;
+  margin-top: 5%;
+  background-color: #c7ccbf;
+  border-radius: 12px;
+}
 
 /* footer */
 
