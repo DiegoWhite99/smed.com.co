@@ -29,12 +29,6 @@ body {
   z-index: 100;
 }
 
-.nav-logo img {
-  width: 50px;
-  height: 30px;
-  border-radius: 70%;
-  margin-right: 50px;
-}
 
 .nav-logo p {
   color: white;
@@ -215,6 +209,22 @@ background-color: rgba(255, 255, 255, 0.7);
 
 
 /* servicios */
+.screen_2 {
+  background-image: linear-gradient(180deg, #ffffff 0%, #f0f0f0 100%);  /* Degradado de blanco a gris claro */
+  background-color: #ffffff;  /* Fondo blanco para que se vea limpio si el degradado no se carga */
+  background-size: cover;  /* Asegura que el degradado cubra todo el fondo */
+  background-position: center;  /* Centra el fondo */
+}
+.title_2 {
+  height: 5px;
+  text-align: center; /* Centrado horizontalmente */
+  font-size: 80px;  /* Tamaño del texto */
+  font-weight: bold;  /* Negrita */
+  margin-top: 10px;  /* Ajusta el espacio superior */
+  margin-bottom: 10px; /* Espaciado inferior */
+  color: #34495E;
+}
+
 :root{
   --background-dark: #2d3548;
   --text-light: rgba(255,255,255,0.6);
@@ -339,7 +349,7 @@ body{
 .servicios {
   margin-top: 40%;
   display: flex;
-  margin-right: 10%;
+  margin-left:30%;
 }
 
 .contacto {
@@ -366,16 +376,7 @@ body{
   border-radius: 20px; /* Bordes redondeados */
 }
 
-.ser {
-  font-size: 300%;
-  font-weight: bold;
-  text-align: center; 
-  text-decoration: none;
-}
-.ser a {
-  text-decoration: none;
-  color: #00cf00;
-}
+
 
 
 /* footer */
