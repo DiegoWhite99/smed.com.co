@@ -376,7 +376,10 @@ body{
   border-radius: 20px; /* Bordes redondeados */
 }
 
-
+/*section3*/
+.screen_3{
+  background-color: #2d3548;
+}
 
 
 /* footer */
