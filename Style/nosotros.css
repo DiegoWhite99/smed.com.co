@@ -183,11 +183,11 @@ h2 {
   font-weight: 350px;
   font-style: normal;
   font-size: 700%;
-  text-shadow: 1px 1px 2px rgb(168, 163, 163), 0 0 1em rgb(205, 203, 203), 0 0 0.2em rgb(213, 213, 213);
+  text-shadow: 5px 5px 2px rgb(15, 15, 15), 0 0 1em rgb(20, 51, 190), 0 0 0.2em rgb(213, 213, 213);
 }
 
 .screen_1 p{
-  font-size: 22px;
+  font-size: 120%;
   justify-content: right;
 }
 
