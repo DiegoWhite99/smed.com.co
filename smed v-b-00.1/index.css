@@ -405,6 +405,45 @@ footer {
   margin: 0;
   font-size: 14px;
 }
+/*carrusel */ 
+.brand-carousel {
+  width: 100%;
+  background-color: #ffffffa4;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container {
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  animation: scroll 25s linear infinite;
+  width: 109%;
+}
+
+.carousel-item {
+  flex: 0 0 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item img {
+  width: 150px;
+  height: auto;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
 
 /* Responsivo */
 @media (max-width: 768px) {
@@ -418,6 +457,170 @@ footer {
   }
 
 };
+
+
+/* proyectos */
+.proyectos {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+}
+
+.proyectos h2 {
+  font-size: 2em;
+  color: #fffbfb;
+  margin-bottom: 20px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+ .galeria a{
+  text-decoration: none;
+}
+
+.proyecto {
+  width: 300px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.proyecto:hover {
+  transform: translateY(-5px);
+}
+
+.proyecto img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.proyecto h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #444;
+}
+
+/* fundadores*/
+#fundadores {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f8f8f8cb;
+}
+
+.fundadores-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: auto;
+}
+
+#tittle_fundadores{
+  color: #0969e7;
+  font-size: 35px;
+}
+
+.fundador {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 250px;
+}
+
+.fundador img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.fundador h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.fundador p {
+  font-size: 14px;
+  color: #666;
+}
+
+.fundador a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #ff7f00;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.fundador a:hover {
+  background-color: #e06b00;
+}
+
+/* contactanos */
+#contacto {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #000000;
+}
+
+.contacto-container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e65c00;
+}
+
+
 
 /* ========== RESPONSIVE DESIGN ========== */
 
